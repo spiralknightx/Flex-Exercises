@@ -1,75 +1,56 @@
-/* this is some magical font-importing.  
-you'll learn about it later. */
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
-
-.split{
-    border: 2px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   margin-right: auto;
-    text-align: center;
-    
-}
-
-.split2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-}
-
 body {
-  margin: 0;
-  background: #eee;
-  font-family: Besley, serif;
-}
-
-.header {
-  background: white;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
-  display: flex;
-  justify-content: space-around;
-}
-
-.profile-image {
-  background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-}
-
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
-  margin: 5px;
-  padding: 5px;
-}
-
-button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  margin-right: 20px;
-  padding: 12px;
-  height: 35px;
-}
-
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-  margin: 5px;
-  padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
   
-}
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
 
-ul {
-    text-align-last: center;
-  list-style-type: none;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px ;
+    text-align: center;
+    height: 250px;
 }
+  
+  
+  .cards{
+    width: 250px;
+    height: 200px;
+  }
+
+  .card-image{
+    height:100px ;
+    width: 100px;
+  }
+
+  p{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+  /* do not edit this footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
