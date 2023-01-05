@@ -1,92 +1,67 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
-  height: 100%;
-}
-
 body {
-  font-family: Roboto, sans-serif;
+    display: column;
+    min-height: 100vh;
+  height: 100vh;
   margin: 0;
-  background: #aaa;
-  color: #333;
-  /* I'll give you this one for free lol */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
 }
 
-.modal {
-  background: white;
-  width: 480px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+img {
+  width: 600px;
 }
-.control{
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+ul > li{
+    display: inline;
+    padding: 20px;
+}
+li > a{
+    color: black;
+}
+.buttons{
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    padding: 10px;
-}
-.textbox{
-    margin-top: 15px;
-    margin-left: 60px;
-    margin-bottom: 20px;
-}
-.icon {
-    float: left;
-  color: royalblue;
-  font-size: 26px;
-  font-weight: 700;
-  background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.close-button {
-    float: right;
-  background: #eee;
-  border-radius: 50%;
-  color: #888;
-  font-weight: 400;
-  font-size: 16px;
-  height: 24px;
-  width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    justify-content: center;
 }
 
 button {
-  padding: 8px 16px;
-  border-radius: 8px;
+    
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+  
 }
 
-button.continue {
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
-}
-
-button.cancel {
-  background: white;
+input {
   border: 1px solid #ddd;
-  color: royalblue;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+  
 }
 .header{
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-align: center;
-    text-align: left;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
-.btnbox{
-    margin-left: 60px;
-    margin-bottom: 10px;
+.footer{
+    margin-top: 300px;
+    display:flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    height: px;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
 }
