@@ -1,2 +1,2 @@
 # Flex-Exercises
-Odin Project Flex Exercises 1-6
+Odin Project Flex Exercises 1-7
